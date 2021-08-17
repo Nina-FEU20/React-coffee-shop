@@ -1,0 +1,66 @@
+.navContainer{
+  height: 667px;
+  width: 375px;
+  position: relative; 
+  overflow: hidden;
+  background: #f3e4e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  background: #2f2926;
+  height: 667px;
+  width: 375px;
+  position: absolute; 
+  top: 0; 
+}
+
+.closeButton {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  padding-top: 16px;
+}
+
+.close {
+  width: 45px;
+  height: 45px;
+  margin-top: 16px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.linkBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 171px;
+}
+
+.links {
+  font-family: "PT Serif";
+  font-style: normal;
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  font-style: normal;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.line {
+  width: 48px;
+  height: 1px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.2);
+}

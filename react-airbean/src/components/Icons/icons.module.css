@@ -1,0 +1,56 @@
+.hamburgerContainer{
+  position: absolute;  
+  top: 16px; 
+  left: 16px; 
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  background: white; 
+  width: 48px; 
+  height: 48px; 
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hamburger{
+  width: 26px; 
+}
+
+.cartContainer{
+  position: absolute; 
+  top: 16px; 
+  left: 299px; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background: #2F2926;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.12); 
+  width: 60px; 
+  height: 60px; 
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cartIcon{
+  width: 16px; 
+  height: 22px; 
+}
+
+.orangeCircle{
+  position: absolute; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  top: 12px; 
+  left: 339px; 
+  background: #E5674E;
+  border-radius: 50%;
+  width: 22px; 
+  height: 22px; 
+}
+
+.num{
+ color: white; 
+ font-size: 12px; 
+ font-family: PT Serif, sans serif;
+}

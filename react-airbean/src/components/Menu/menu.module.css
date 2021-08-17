@@ -1,0 +1,99 @@
+.container{
+    width: 375px; 
+    height: 839px; 
+    background: #F3E4E1; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative; 
+    color: #2F2926;
+    overflow: hidden; 
+}
+
+.menuContainer{
+    width: 100%; 
+    position: absolute; 
+    top: 119px;
+    display: flex; 
+    flex-direction: column;
+}
+
+.addBtn{
+    background: #2F2926;
+    height: 32px; 
+    width: 32px; 
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+  
+.addIcon{
+    height: 15px; 
+    width: 15px; 
+}
+
+.addContainer{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-family: PT Serif, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px; 
+    text-align: center;
+    margin-bottom: 30px;  
+}
+
+.itemWrapper{
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 32px 35px; 
+    align-items: center;
+}
+
+.itemContainer{
+    display: flex;    
+    justify-content: space-between;
+    flex: 2; 
+    margin-left: 1rem;
+}
+
+.coffee, .price{
+    font-size: 23px;
+    font-family: PT Serif, sans-serif;
+}
+
+.coffee{
+    margin-bottom: 4px; 
+}
+
+.border{
+ /* border-bottom: 1px dashed rgba(0, 0, 0, 0.4); */
+    width: 120px;
+    margin-left:  80px;
+    margin-top: -22px;  
+    height: 1px; 
+    width: 120px;
+    letter-spacing: 2px; 
+    font-size: 10px; 
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+.desc{
+    font-family: Work Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130%;
+    margin-top: 18px; 
+}
+
+.errorMessage {
+    width: 100%;
+    text-align: center;
+}

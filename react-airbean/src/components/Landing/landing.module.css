@@ -1,0 +1,49 @@
+body {
+  width: 375px;
+  height: 667px;
+}
+
+.landingWrapper {
+  width: 375px;
+  height: 667px;
+  background: #38846d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerleft {
+  width: 169px;
+  height: 667px;
+  z-index: 1;
+}
+
+.landingLeft {
+  width: 100%;
+}
+
+.containerlogo {
+  width: 257px;
+  height: 149px;
+  z-index: 3;
+  position: absolute;
+  top: 263px;
+  bottom: 274px;
+  left: 58px;
+  right: 60px;
+}
+
+.landingLogo {
+  width: 100%;
+}
+
+.containerright {
+  width: 143px;
+  height: 667px;
+  z-index: 1;
+}
+
+.landingRight {
+  width: 100%;
+}
