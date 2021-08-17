@@ -1,3 +1,13 @@
+***Original Author and designer for this project: Christoffer Wallenberg***
+
+Sista uppgiften för kursen i Avancerad JavaScript med React. 
+Här har vi byggt en frontend till en färdig backend. 
+Det har varit ett grupparbete där vi alla samarbetat, men jag har huvudsakligen ansvarat för följande: 
+* Router
+* Cart, Icon & delvis Menu components
+* Local Storage och Redux kopplad till denna funktion
+* Alla animationer (gjort med framer-motion)
+
 # Grupparbete - AirBean
 
 Du ska bygga en webbapp där du kan beställa kaffe och få den levererad via drönare (drönare ingår ej i uppgiften).
