@@ -5,7 +5,8 @@ Här har vi byggt en frontend till en färdig backend.
 Det har varit ett grupparbete där vi alla samarbetat, men jag har huvudsakligen ansvarat för följande: 
 * Router
 * Cart, Icon & delvis Menu components
-* Local Storage och Redux kopplad till denna funktion
+* Delar av Redux
+* Local Storage
 * Alla animationer (gjort med framer-motion)
 
 # Grupparbete - AirBean
